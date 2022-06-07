@@ -51,7 +51,6 @@ def save_one_box(xyxy, im, file='image.jpg', gain=1.02, pad=10, square=False, BG
 if __name__ == '__main__':
     img_root = ''
     save_path = ''
-    # E:\dataset\ASD_rti\pictures_doctor\pic_07\0720211125_111250_2899.jpg
     xyxy = np.array([0, 0, 0, 0])
     vn_ls = os.listdir(img_root)
     first_frame = True
